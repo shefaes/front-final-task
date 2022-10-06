@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .signin-main {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    overflow: hidden;
+  }
+
+  .signin-header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 40px 100px;
+    z-index: 1;
+  }
+  
+
+
+ .signin-form {
+   margin-top: 170px;
+ }
+  
+.singin-header-btn p {
+    color: #292930;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-left: 120px;
+  }
+  .singin-header-btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .singin-header-btn p{
+    margin: 0%;
+    margin-right: 20px;
+  }
+
+  .sign-up-btn{
+    background-color: #ff497c;
+    color: #fff !important;
+    line-height: 1.7;
+    font-weight: 700;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 16px 36px;
+    position: relative;
+    transition: all .3s ease-in-out;
+  }
+
+   .singin-header-btn a:hover {
+      transform: scale(1.1);
+      z-index: 1;
+  }
+
+  .signinn {
+   width: 100%;
+   padding: 30px;
+   max-width: 450px;
+   margin-top: 35px;
+  }
+
+   .signinn label{
+    position: absolute;
+    top: 48%;
+    left: 52%;
+    z-index: 4;
+    padding: 0 10px;
+    background-color: #fff;
+   }
+
+  .signin-form h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    color: #292930;
+ 
+}
+
+.signin-form p {
+ color: #999fae;
+ font-size: 14px;
+ font-weight: 400;
+ margin-top: 13px;
+ margin-top: 1rem;
+}
+
+.form-control {
+    height: 60px;
+    border-color: #cbd3d9;
+    padding: 0 30px;
+    color: #777777;
+  
+}
+
+.signin-form label{
+  font-weight: 500;
+  font-size: 14px;
+  color: #777777;
+}
+
+.singinn input {
+  border: 0 none;
+  border-radius: 6px;
+  height: 50px;
+  font-size: 14px;
+  padding: 0 20px;
+  background-color: #fff;
+  border: 1px solid #cbd3d9;
+  font-weight: 400;
+  line-height: 60px;
+  background: #fff;
+  box-shadow: none;
+  outline: none;
+  width: 390px;
+}
+
+.form-groupp {
+  margin-top: 2rem;
+}
+
+.form-groupp a {
+  font-size: 14px;
+  color: #3577f0;
+  font-family: "DM Sans" sans-serif;
+  margin-right: 250px;
+}
+
+.form-groupp button {
+  height: 54px;
+  width: 125px;
+  background-color: #3577f0;
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+}
+
+.banner-img {
+    background-image: url('https://new.axilthemes.com/demo/template/etrade/assets/images/bg/bg-image-9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 900px;
+    height: 100vh;
+    padding: 200px 50px 0 100px;
+    width: 410px;
+}
